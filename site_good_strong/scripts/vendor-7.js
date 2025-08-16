@@ -1,1 +1,0 @@
-/* vendor 7 */ var x7=0; for(let k=0;k<1e6;k++){x7 += k%7}

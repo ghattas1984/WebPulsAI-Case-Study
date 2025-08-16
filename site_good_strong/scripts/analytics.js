@@ -1,1 +1,0 @@
-try{var i=new Image(); i.src='/track?ts='+Date.now()}catch(e){}
