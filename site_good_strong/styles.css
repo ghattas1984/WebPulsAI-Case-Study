@@ -1,19 +1,5 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Test Shop — Baseline (Slow)</title>
-  <link rel="stylesheet" href="styles.css" />
-  <style>
-    body { font-family: Arial, Helvetica, sans-serif; background:#f7f7f7; }
-    .hero { background:#fff; margin:20px auto; max-width:1200px; padding:24px; border: 1px solid #ddd; }
-    .hero h1 { font-size: 48px; margin-bottom: 16px; }
-    .grid { display:grid; grid-template-columns: 1fr 1fr; gap:24px; }
-    .card { background:#fff; border:1px solid #ddd; padding:16px; }
-    /* filler to bloat CSS */
-    .f1{margin:0;padding:0;border:0;}
+*,*::before,*::after{box-sizing:border-box}img{display:block;max-width:100%;height:auto}.hero{background:#fff;margin:20px auto;max-width:1200px;padding:24px;border:1px solid #ddd}.grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.card{background:#fff;border:1px solid #ddd;padding:16px}
+.f1{margin:0;padding:0;border:0;}
 .f2{margin:0;padding:0;border:0;}
 .f3{margin:0;padding:0;border:0;}
 .f4{margin:0;padding:0;border:0;}
@@ -612,36 +598,203 @@
 .f597{margin:0;padding:0;border:0;}
 .f598{margin:0;padding:0;border:0;}
 .f599{margin:0;padding:0;border:0;}
-
-  </style>
-  <script src="scripts/vendor-large.js"></script>
-  <script src="scripts/analytics.js"></script>
-  <script src="scripts/app.js"></script>
-</head>
-<body>
-  <header class="hero">
-    <h1>Welcome to Test Shop (Baseline)</h1>
-    <p>This page intentionally contains performance issues for research purposes.</p>
-    <img src="assets/hero-big.png" alt="Hero Large" width="100%" />
-  </header>
-
-  <main class="grid">
-    <article class="card">
-      <h2>Gallery</h2>
-      <img src="assets/gallery-1-big.png" alt="Gallery Large" width="100%" />
-      <img src="assets/missing-image.png" alt="Missing" width="100%" />
-    </article>
-    <aside class="card">
-      <h2>Links</h2>
-      <ul>
-        <li><a href="non-existent-page.html">Broken Internal Link</a></li>
-        <li><a href="#!" onclick="heavyCompute()">Trigger Heavy JS</a></li>
-      </ul>
-    </aside>
-  </main>
-
-  <footer class="hero">
-    <p>Research-only demo. &copy; 2025</p>
-  </footer>
-</body>
-</html>
+.f600{margin:0;padding:0;border:0;}
+.f601{margin:0;padding:0;border:0;}
+.f602{margin:0;padding:0;border:0;}
+.f603{margin:0;padding:0;border:0;}
+.f604{margin:0;padding:0;border:0;}
+.f605{margin:0;padding:0;border:0;}
+.f606{margin:0;padding:0;border:0;}
+.f607{margin:0;padding:0;border:0;}
+.f608{margin:0;padding:0;border:0;}
+.f609{margin:0;padding:0;border:0;}
+.f610{margin:0;padding:0;border:0;}
+.f611{margin:0;padding:0;border:0;}
+.f612{margin:0;padding:0;border:0;}
+.f613{margin:0;padding:0;border:0;}
+.f614{margin:0;padding:0;border:0;}
+.f615{margin:0;padding:0;border:0;}
+.f616{margin:0;padding:0;border:0;}
+.f617{margin:0;padding:0;border:0;}
+.f618{margin:0;padding:0;border:0;}
+.f619{margin:0;padding:0;border:0;}
+.f620{margin:0;padding:0;border:0;}
+.f621{margin:0;padding:0;border:0;}
+.f622{margin:0;padding:0;border:0;}
+.f623{margin:0;padding:0;border:0;}
+.f624{margin:0;padding:0;border:0;}
+.f625{margin:0;padding:0;border:0;}
+.f626{margin:0;padding:0;border:0;}
+.f627{margin:0;padding:0;border:0;}
+.f628{margin:0;padding:0;border:0;}
+.f629{margin:0;padding:0;border:0;}
+.f630{margin:0;padding:0;border:0;}
+.f631{margin:0;padding:0;border:0;}
+.f632{margin:0;padding:0;border:0;}
+.f633{margin:0;padding:0;border:0;}
+.f634{margin:0;padding:0;border:0;}
+.f635{margin:0;padding:0;border:0;}
+.f636{margin:0;padding:0;border:0;}
+.f637{margin:0;padding:0;border:0;}
+.f638{margin:0;padding:0;border:0;}
+.f639{margin:0;padding:0;border:0;}
+.f640{margin:0;padding:0;border:0;}
+.f641{margin:0;padding:0;border:0;}
+.f642{margin:0;padding:0;border:0;}
+.f643{margin:0;padding:0;border:0;}
+.f644{margin:0;padding:0;border:0;}
+.f645{margin:0;padding:0;border:0;}
+.f646{margin:0;padding:0;border:0;}
+.f647{margin:0;padding:0;border:0;}
+.f648{margin:0;padding:0;border:0;}
+.f649{margin:0;padding:0;border:0;}
+.f650{margin:0;padding:0;border:0;}
+.f651{margin:0;padding:0;border:0;}
+.f652{margin:0;padding:0;border:0;}
+.f653{margin:0;padding:0;border:0;}
+.f654{margin:0;padding:0;border:0;}
+.f655{margin:0;padding:0;border:0;}
+.f656{margin:0;padding:0;border:0;}
+.f657{margin:0;padding:0;border:0;}
+.f658{margin:0;padding:0;border:0;}
+.f659{margin:0;padding:0;border:0;}
+.f660{margin:0;padding:0;border:0;}
+.f661{margin:0;padding:0;border:0;}
+.f662{margin:0;padding:0;border:0;}
+.f663{margin:0;padding:0;border:0;}
+.f664{margin:0;padding:0;border:0;}
+.f665{margin:0;padding:0;border:0;}
+.f666{margin:0;padding:0;border:0;}
+.f667{margin:0;padding:0;border:0;}
+.f668{margin:0;padding:0;border:0;}
+.f669{margin:0;padding:0;border:0;}
+.f670{margin:0;padding:0;border:0;}
+.f671{margin:0;padding:0;border:0;}
+.f672{margin:0;padding:0;border:0;}
+.f673{margin:0;padding:0;border:0;}
+.f674{margin:0;padding:0;border:0;}
+.f675{margin:0;padding:0;border:0;}
+.f676{margin:0;padding:0;border:0;}
+.f677{margin:0;padding:0;border:0;}
+.f678{margin:0;padding:0;border:0;}
+.f679{margin:0;padding:0;border:0;}
+.f680{margin:0;padding:0;border:0;}
+.f681{margin:0;padding:0;border:0;}
+.f682{margin:0;padding:0;border:0;}
+.f683{margin:0;padding:0;border:0;}
+.f684{margin:0;padding:0;border:0;}
+.f685{margin:0;padding:0;border:0;}
+.f686{margin:0;padding:0;border:0;}
+.f687{margin:0;padding:0;border:0;}
+.f688{margin:0;padding:0;border:0;}
+.f689{margin:0;padding:0;border:0;}
+.f690{margin:0;padding:0;border:0;}
+.f691{margin:0;padding:0;border:0;}
+.f692{margin:0;padding:0;border:0;}
+.f693{margin:0;padding:0;border:0;}
+.f694{margin:0;padding:0;border:0;}
+.f695{margin:0;padding:0;border:0;}
+.f696{margin:0;padding:0;border:0;}
+.f697{margin:0;padding:0;border:0;}
+.f698{margin:0;padding:0;border:0;}
+.f699{margin:0;padding:0;border:0;}
+.f700{margin:0;padding:0;border:0;}
+.f701{margin:0;padding:0;border:0;}
+.f702{margin:0;padding:0;border:0;}
+.f703{margin:0;padding:0;border:0;}
+.f704{margin:0;padding:0;border:0;}
+.f705{margin:0;padding:0;border:0;}
+.f706{margin:0;padding:0;border:0;}
+.f707{margin:0;padding:0;border:0;}
+.f708{margin:0;padding:0;border:0;}
+.f709{margin:0;padding:0;border:0;}
+.f710{margin:0;padding:0;border:0;}
+.f711{margin:0;padding:0;border:0;}
+.f712{margin:0;padding:0;border:0;}
+.f713{margin:0;padding:0;border:0;}
+.f714{margin:0;padding:0;border:0;}
+.f715{margin:0;padding:0;border:0;}
+.f716{margin:0;padding:0;border:0;}
+.f717{margin:0;padding:0;border:0;}
+.f718{margin:0;padding:0;border:0;}
+.f719{margin:0;padding:0;border:0;}
+.f720{margin:0;padding:0;border:0;}
+.f721{margin:0;padding:0;border:0;}
+.f722{margin:0;padding:0;border:0;}
+.f723{margin:0;padding:0;border:0;}
+.f724{margin:0;padding:0;border:0;}
+.f725{margin:0;padding:0;border:0;}
+.f726{margin:0;padding:0;border:0;}
+.f727{margin:0;padding:0;border:0;}
+.f728{margin:0;padding:0;border:0;}
+.f729{margin:0;padding:0;border:0;}
+.f730{margin:0;padding:0;border:0;}
+.f731{margin:0;padding:0;border:0;}
+.f732{margin:0;padding:0;border:0;}
+.f733{margin:0;padding:0;border:0;}
+.f734{margin:0;padding:0;border:0;}
+.f735{margin:0;padding:0;border:0;}
+.f736{margin:0;padding:0;border:0;}
+.f737{margin:0;padding:0;border:0;}
+.f738{margin:0;padding:0;border:0;}
+.f739{margin:0;padding:0;border:0;}
+.f740{margin:0;padding:0;border:0;}
+.f741{margin:0;padding:0;border:0;}
+.f742{margin:0;padding:0;border:0;}
+.f743{margin:0;padding:0;border:0;}
+.f744{margin:0;padding:0;border:0;}
+.f745{margin:0;padding:0;border:0;}
+.f746{margin:0;padding:0;border:0;}
+.f747{margin:0;padding:0;border:0;}
+.f748{margin:0;padding:0;border:0;}
+.f749{margin:0;padding:0;border:0;}
+.f750{margin:0;padding:0;border:0;}
+.f751{margin:0;padding:0;border:0;}
+.f752{margin:0;padding:0;border:0;}
+.f753{margin:0;padding:0;border:0;}
+.f754{margin:0;padding:0;border:0;}
+.f755{margin:0;padding:0;border:0;}
+.f756{margin:0;padding:0;border:0;}
+.f757{margin:0;padding:0;border:0;}
+.f758{margin:0;padding:0;border:0;}
+.f759{margin:0;padding:0;border:0;}
+.f760{margin:0;padding:0;border:0;}
+.f761{margin:0;padding:0;border:0;}
+.f762{margin:0;padding:0;border:0;}
+.f763{margin:0;padding:0;border:0;}
+.f764{margin:0;padding:0;border:0;}
+.f765{margin:0;padding:0;border:0;}
+.f766{margin:0;padding:0;border:0;}
+.f767{margin:0;padding:0;border:0;}
+.f768{margin:0;padding:0;border:0;}
+.f769{margin:0;padding:0;border:0;}
+.f770{margin:0;padding:0;border:0;}
+.f771{margin:0;padding:0;border:0;}
+.f772{margin:0;padding:0;border:0;}
+.f773{margin:0;padding:0;border:0;}
+.f774{margin:0;padding:0;border:0;}
+.f775{margin:0;padding:0;border:0;}
+.f776{margin:0;padding:0;border:0;}
+.f777{margin:0;padding:0;border:0;}
+.f778{margin:0;padding:0;border:0;}
+.f779{margin:0;padding:0;border:0;}
+.f780{margin:0;padding:0;border:0;}
+.f781{margin:0;padding:0;border:0;}
+.f782{margin:0;padding:0;border:0;}
+.f783{margin:0;padding:0;border:0;}
+.f784{margin:0;padding:0;border:0;}
+.f785{margin:0;padding:0;border:0;}
+.f786{margin:0;padding:0;border:0;}
+.f787{margin:0;padding:0;border:0;}
+.f788{margin:0;padding:0;border:0;}
+.f789{margin:0;padding:0;border:0;}
+.f790{margin:0;padding:0;border:0;}
+.f791{margin:0;padding:0;border:0;}
+.f792{margin:0;padding:0;border:0;}
+.f793{margin:0;padding:0;border:0;}
+.f794{margin:0;padding:0;border:0;}
+.f795{margin:0;padding:0;border:0;}
+.f796{margin:0;padding:0;border:0;}
+.f797{margin:0;padding:0;border:0;}
+.f798{margin:0;padding:0;border:0;}
+.f799{margin:0;padding:0;border:0;}
