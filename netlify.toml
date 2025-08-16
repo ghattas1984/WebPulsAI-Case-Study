@@ -1,0 +1,6 @@
+[[edge_functions]]
+path = "/site_good_exact/index.html"
+function = "delay-good"
+
+[functions]
+node_bundler = "esbuild"
